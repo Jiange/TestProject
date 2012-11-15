@@ -1,0 +1,12 @@
+This is test perf of 10 number files
+\\vse4001\public\v-huhuo\git\timer.exe /n
+\\vse4001\public\v-huhuo\git\timer.exe /s
+This is test perf of 10 number files for pull
+\\vse4001\public\v-huhuo\git\timer.exe /n
+\\vse4001\public\v-huhuo\git\timer.exe /s
+This is test perf of 10 number files
+\\vse4001\public\v-huhuo\git\timer.exe /n
+\\vse4001\public\v-huhuo\git\timer.exe /s
+This is test perf of 100 number files for pull
+\\vse4001\public\v-huhuo\git\timer.exe /n
+\\vse4001\public\v-huhuo\git\timer.exe /s
