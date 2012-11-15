@@ -1,6 +1,7 @@
 set resultPath=%1
 set ClonePj=%2
-set ServerPath=\\vse4001\public\v-huhuo\git
+set ServerPath=D:\git
+rem \\vse4001\public\v-huhuo\git
 
 REM==Clone TestProject for Pull
 rem git clone -n https://github.com/Jiange/TestProject.git ../%ClonePj%
