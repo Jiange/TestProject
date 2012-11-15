@@ -9,7 +9,7 @@ rem==============
 REM Start the Git senarioes for file Size.
 
 rem=====001
-cd FileSize2
+cd FileSize
 git add file1KSize.TXT
 git commit -m "This is test perf of 1K Size file"
 
@@ -25,7 +25,7 @@ git pull
 call %ServerPath%\timer.exe /s>>%resultPath%
 
 rem=====002
-cd ../TestProject/FileSize2
+cd ../TestProject/FileSize
 git add file10KSize.TXT
 git commit -m "This is test perf of 10K Size file"
 
@@ -41,7 +41,7 @@ git pull
 call %ServerPath%\timer.exe /s>>%resultPath%
 
 rem=====003
-cd ../TestProject/FileSize2
+cd ../TestProject/FileSize
 git add file100KSize.TXT
 git commit -m "This is test perf of 100K Size file"
 
@@ -57,7 +57,7 @@ git pull
 call %ServerPath%\timer.exe /s>>%resultPath%
 
 rem=====004
-cd ../TestProject/FileSize2
+cd ../TestProject/FileSize
 git add file1MBSize.TXT
 git commit -m "This is test perf of 1MB Size file"
 
@@ -73,7 +73,7 @@ git pull
 call %ServerPath%\timer.exe /s>>%resultPath%
 
 rem=====005
-cd ../TestProject/FileSize2
+cd ../TestProject/FileSize
 git add file10MBSize.TXT
 git commit -m "This is test perf of 10MB Size file"
 
@@ -90,7 +90,7 @@ call %ServerPath%\timer.exe /s>>%resultPath%
 
 REM FileNum Test==============================
 cd ../TestProject
-cd ../FileNum2
+cd ../FileNum
 
 rem=====001
 cd File10Num
@@ -109,7 +109,7 @@ git pull
 call %ServerPath%\timer.exe /s>>%resultPath%
 
 rem=====002
-cd ../TestProject/FileNum2/File100Num
+cd ../TestProject/FileNum/File100Num
 git add -A
 git commit -m "This is test perf of 10 number files"
 
@@ -127,7 +127,7 @@ call  %ServerPath%\timer.exe /s>>%resultPath%
 
 
 rem=====003
-cd ../TestProject/FileNum2/File1000Num
+cd ../TestProject/FileNum/File1000Num
 git add -A
 git commit -m "This is test perf of 10 number files"
 
