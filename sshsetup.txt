@@ -1,4 +1,0 @@
-SSH setup is painful
-ParaPhase
-new fix
-new fix

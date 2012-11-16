@@ -6,6 +6,9 @@ rem \\vse4001\public\v-huhuo\git
 
 REM==Clone TestProject for Pull
 git clone -n https://github.com/Jiange/TestProject.git ../%ClonePj%
+cd ../%ClonePj%
+git pull
+cd ../TestProject
 
 rem==============
 REM Start the Git senarioes for file Size.
