@@ -1,10 +1,11 @@
 set resultPath=%1
 set ClonePj=%2
+rem timer tool path
 set ServerPath=D:\git
 rem \\vse4001\public\v-huhuo\git
 
 REM==Clone TestProject for Pull
-rem git clone -n https://github.com/Jiange/TestProject.git ../%ClonePj%
+git clone -n https://github.com/Jiange/TestProject.git ../%ClonePj%
 
 rem==============
 REM Start the Git senarioes for file Size.
@@ -112,9 +113,9 @@ call %ServerPath%\timer.exe /s>>%resultPath%
 rem=====002
 cd ../TestProject/FileNum/File100Num
 git add -A
-git commit -m "This is test perf of 10 number files"
+git commit -m "This is test perf of 100 number files"
 
-echo This is test perf of 10 number files>>%resultPath%
+echo This is test perf of 100 number files>>%resultPath%
 call %ServerPath%\timer.exe /n>>%resultPath%
 git push
 call %ServerPath%\timer.exe /s>>%resultPath%
@@ -130,15 +131,15 @@ call  %ServerPath%\timer.exe /s>>%resultPath%
 rem=====003
 cd ../TestProject/FileNum/File1000Num
 git add -A
-git commit -m "This is test perf of 10 number files"
+git commit -m "This is test perf of 1000 number files"
 
-echo This is test perf of 10 number files>>%resultPath%
+echo This is test perf of 1000 number files>>%resultPath%
 call %ServerPath%\timer.exe /n>>%resultPath%
 git push
 call %ServerPath%\timer.exe /s>>%resultPath%
 
 cd ../../../%ClonePj%
-echo This is test perf of 100 number files for pull>>%resultPath%
+echo This is test perf of 1000 number files for pull>>%resultPath%
 call %ServerPath%\timer.exe /n>>%resultPath%
 git pull
 call %ServerPath%\timer.exe /s>>%resultPath%
