@@ -1,7 +1,7 @@
 set resultPath=%1
 set ClonePj=%2
 rem timer tool path
-set ServerPath=D:\Users\vseqa1\Documents\git
+set ServerPath=D:\git
 rem \\vse4001\public\v-huhuo\git
 
 REM==Clone TestProject for Pull
